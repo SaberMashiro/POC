@@ -1,6 +1,6 @@
 #coding:utf-8
 import requests
-
+url = 'http://192.168.42.133/phpcms/install_package/index.php'
 s = requests.session()
 params_get_userid = {
     'm':'wap',
